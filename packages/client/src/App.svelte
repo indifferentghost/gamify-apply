@@ -1,10 +1,6 @@
 <script>
-  export let name;
+  import { Router } from "@sveltech/routify";
+  import { routes } from "@sveltech/routify/tmp/routes";
 </script>
 
-<main>
-  <h1>Hello {name}!</h1>
-</main>
-
-<style>
-</style>
+<Router {routes} />

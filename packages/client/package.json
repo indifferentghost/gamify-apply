@@ -4,9 +4,12 @@
 	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
-		"dev:start": "webpack-dev-server"
+		"dev:start": "run-p watch:routify watch:webpack",
+		"watch:webpack": "webpack-dev-server --content-base public",
+		"watch:routify": "routify"
 	},
 	"dependencies": {
+		"@sveltech/routify": "^1.7.11",
 		"svelte": "^3.22.3",
 		"tailwindcss": "^1.4.6"
 	},
@@ -24,6 +27,7 @@
 		"babel-loader": "^8.1.0",
 		"css-loader": "^3.5.3",
 		"html-webpack-plugin": "^4.3.0",
+		"npm-run-all": "^4.1.5",
 		"postcss": "^7.0.26",
 		"postcss-import": "^12.0.1",
 		"postcss-loader": "^3.0.0",

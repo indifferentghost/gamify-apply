@@ -1,0 +1,31 @@
+{
+  "name": "@gamify-apply/monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "author": "Thomas Dillard <thomas.dillard.studios@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore --ext .js$,.jsx,.ts,.tsx ./packages/client/**/*",
+    "compile": "tsc --build tsconfig.json",
+    "prettier": "prettier --config ./.prettierrc --ignore-path ./.gitignore \"./packages/client/**/*.+(js|json|yml|yaml|css|tsx|ts|md|graphql|mdx)\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.13.0",
+    "@typescript-eslint/parser": "^2.13.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "2.18.2",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.4"
+  }
+}

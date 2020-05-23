@@ -1,0 +1,52 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "project": [
+      "./packages/client/tsconfig.json"
+    ],
+    "extraFileExtensions": [".json"]
+  },
+  "settings": {
+    "react": {
+      "version": "16.12"
+    }
+  },
+  "rules": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn",
+          "info",
+          "error",
+          "assert"
+        ]
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "config/**/*.js",
+          "**/webpack.*.js",
+          "*.config.js"
+        ],
+        "optionalDependencies": false
+      }
+    ]
+  }
+}

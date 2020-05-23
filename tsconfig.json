@@ -1,0 +1,12 @@
+{
+  "references": [
+    {
+      "path": "./packages/client/"
+    }
+  ],
+  "include": [],
+  "exclude": [
+    "node_modules",
+    "/**/dist/*"
+  ]
+}

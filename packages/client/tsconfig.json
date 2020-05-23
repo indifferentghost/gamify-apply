@@ -1,11 +1,12 @@
 {
-  "extends": "../../tsconfig.packages.json",
-  "compilerOptions": {
-    "rootDir": "./src",
-    "outDir": "./dist",
-    "lib": ["dom", "esnext", "es2017.object"]
-  },
-  "strict": true,
-  "include": ["src"],
-  "exclude": ["config"]
+	"extends": "../../tsconfig.packages.json",
+	"compilerOptions": {
+		"rootDir": "./src/",
+		"outDir": "./dist",
+		"lib": ["dom", "esnext", "es2017.object"],
+		"types": ["@pyoner/svelte-types"]
+	},
+	"strict": true,
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules", "config", "*.config.*"]
 }

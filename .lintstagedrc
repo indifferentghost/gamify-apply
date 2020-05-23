@@ -1,6 +1,6 @@
 {
   "./**/*.{js,jsx,ts,tsx}": [
-    "eslint --ignore-path .gitignore" 
+    "eslint --ignore-path .gitignore --ignore-path .eslintignore"
   ],
   "./**/*.*.+(js|json|yml|yaml|css|less|md|graphql|mdx|ts|tsx)": [
     "prettier --write",

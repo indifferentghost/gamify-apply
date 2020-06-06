@@ -8,6 +8,10 @@ module.exports = {
 	entry: {
 		bundle: ['./src/index.ts'],
 	},
+	devServer: {
+		historyApiFallback: true,
+		port: 3000,
+	},
 	resolve: {
 		alias: {
 			svelte: path.resolve('../../node_modules', 'svelte'),
@@ -16,7 +20,7 @@ module.exports = {
 		mainFields: ['svelte', 'browser', 'module', 'main'],
 	},
 	output: {
-		path: __dirname + '/public',
+		path: `${__dirname}/public`,
 		filename: '[name].js',
 		chunkFilename: '[name].[id].js',
 	},

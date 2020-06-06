@@ -836,10 +836,10 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@sveltech/routify@^1.7.11":
-  version "1.7.11"
-  resolved "https://registry.yarnpkg.com/@sveltech/routify/-/routify-1.7.11.tgz#16b7f936a55a243bcb117fed5a4e8e0bf925702c"
-  integrity sha512-w7zlH5CchuVsdoW4m7rKXcGKw0mSi321ZxBYJ4Zb88UNW1FhjTMzO7VfiKfYHMwfrL9xIeCk6TbHjLhAki9BPA==
+"@sveltech/routify@^1.7.13":
+  version "1.7.13"
+  resolved "https://registry.yarnpkg.com/@sveltech/routify/-/routify-1.7.13.tgz#38f938f8495d640ece74ee3050e62d930cd73dee"
+  integrity sha512-9xqQdWIt8c9IhckTchDM9J+MWFAb9KlGkgqsBl+A4tXLHjR1VCK21kd/iiQcEovJ0yTRA4qsZKBYB1oxtTEfGw==
   dependencies:
     "@sveltech/ssr" "^0.0.9"
     "@types/node" ">=4.2.0 < 13"
@@ -7119,10 +7119,10 @@ svelte-preprocess@^3.7.4:
     detect-indent "^6.0.0"
     strip-indent "^3.0.0"
 
-svelte@^3.22.3:
-  version "3.22.3"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.22.3.tgz#6af3bdcfea44c2fadbf17a32c479f49bdf1aba4b"
-  integrity sha512-DumSy5eWPFPlMUGf3+eHyFSkt5yLqyAmMdCuXOE4qc5GtFyLxwTAGKZmgKmW2jmbpTTeFQ/fSQfDBQbl9Eo7yw==
+svelte@^3.23.0:
+  version "3.23.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.23.0.tgz#bbcd6887cf588c24a975b14467455abfff9acd3f"
+  integrity sha512-cnyd96bK/Nw5DnYuB1hzm5cl6+I1fpmdKOteA7KLzU9KGLsLmvWsSkSKbcntzODCLmSySN3HjcgTHRo6/rJNTw==
 
 symbol-observable@^1.1.0:
   version "1.2.0"

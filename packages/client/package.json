@@ -9,8 +9,8 @@
 		"watch:routify": "routify"
 	},
 	"dependencies": {
-		"@sveltech/routify": "^1.7.11",
-		"svelte": "^3.22.3",
+		"@sveltech/routify": "^1.7.13",
+		"svelte": "^3.23.0",
 		"tailwindcss": "^1.4.6"
 	},
 	"peerDependencies": {

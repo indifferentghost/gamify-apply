@@ -10,6 +10,8 @@
 	},
 	"dependencies": {
 		"@sveltech/routify": "^1.7.13",
+		"@tailwindcss/ui": "^0.3.0",
+		"carbon-icons-svelte": "^10.10.2",
 		"svelte": "^3.23.0",
 		"tailwindcss": "^1.4.6"
 	},

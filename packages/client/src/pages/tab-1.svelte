@@ -1,5 +1,5 @@
 <script>
-	import Achievement from '../components/Achievement.svelte';
+	import Achievement from '../components/ui/Achievement.svelte';
 </script>
 
 Tab 1 content

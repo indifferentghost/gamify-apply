@@ -6,12 +6,13 @@
 	"scripts": {
 		"dev:start": "run-p watch:routify watch:webpack",
 		"watch:webpack": "webpack-dev-server --content-base public",
-		"watch:routify": "routify"
+		"watch:routify": "routify --debug"
 	},
 	"dependencies": {
 		"@sveltech/routify": "^1.7.13",
 		"@tailwindcss/ui": "^0.3.0",
 		"carbon-icons-svelte": "^10.10.2",
+		"clsx": "^1.1.1",
 		"svelte": "^3.23.0",
 		"tailwindcss": "^1.4.6"
 	},
